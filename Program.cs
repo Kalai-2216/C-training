@@ -6,7 +6,7 @@ class marks
     {
         Console.Write("Enter the name : ");
         string name = Console.ReadLine();
-        Console.Write("Enter the number of Subjects :");
+        Console.Write("Enter the number of Subs :");
         int subjects=Convert.ToInt32(Console.ReadLine());
         int total = 0;
         for(int i = 0; i < subjects; i++)
